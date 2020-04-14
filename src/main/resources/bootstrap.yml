@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: ${HOME}/IdeaProjects/police-alert-config
+          uri: https://github.com/crippledgeek/police-alert-config.git
 
 server:
   port: 8888
