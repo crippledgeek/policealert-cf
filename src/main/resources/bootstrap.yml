@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: police-alert-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HOME}/IdeaProjects/police-alert-config
+
+server:
+  port: 8888
